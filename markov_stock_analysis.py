@@ -81,7 +81,7 @@ def plot_markov_chain(transition_matrix):
     edge_labels = nx.get_edge_attributes(G, 'weight')
     nx.draw_networkx_edge_labels(G, pos, edge_labels=edge_labels, font_size=10)
 
-    plt.title("Markov Chain for Amazon Stock Price Movement")
+    plt.title("Markov Chain for Stock Price Movement")
     plt.show()
 
 # Plot the network graph
